@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/jms/PokeRNGTool">
+    <file compressed="true" preprocess="xml-stripblanks">ui/main.ui</file>
+
+    <file compressed="true" preprocess="to-pixdata">sprites/zekrom.png</file>
+    <file compressed="true" preprocess="to-pixdata">sprites/reshiram.png</file>
+    <file compressed="true" preprocess="to-pixdata">sprites/kyurem-b.png</file>
+    <file compressed="true" preprocess="to-pixdata">sprites/kyurem-w.png</file>
+    <file compressed="true" preprocess="to-pixdata">sprites/solgaleo.png</file>
+    <file compressed="true" preprocess="to-pixdata">sprites/lunala.png</file>
+    <file compressed="true" preprocess="to-pixdata">sprites/necrozma-dm.png</file>
+    <file compressed="true" preprocess="to-pixdata">sprites/necrozma-dw.png</file>
+  </gresource>
+</gresources>
