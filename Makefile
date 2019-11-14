@@ -1,14 +1,17 @@
+.PHONY: run
 run: resources
-	mkdir -p target/debug/
 	cd target/debug/ && cargo run --manifest-path ../../Cargo.toml
 
+.PHONY: release
 release:
 
+.PHONY: clean
 clean:
 	cargo clean
 
 
-resources: res/PokeRNGTool.gresource.xml res/ui/main.ui
+.PHONY: resources
+resources:
 	glib-compile-resources --sourcedir=res res/PokeRNGTool.gresource.xml
 	mkdir -p target/debug/
 	mv res/PokeRNGTool.gresource target/debug/

@@ -4,6 +4,7 @@ version = "1.0.0"
 edition = "2018"
 
 [dependencies]
-gtk = { version = "0.7", features = ["v3_22"] }
+gtk = { version = "0.7", features = ["v3_20"] }
 glib = "0.8"
 gio = "0.7"
+pango = "0.7"
